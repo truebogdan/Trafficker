@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C6F75E6"
+    tools:context=".GunShop">
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="GUN SHOP"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.007" />
+
+    <Button
+        android:id="@+id/buyPistolButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:onClick="buyPistol"
+        android:text="BUY FOR $7K"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img1" />
+
+    <ImageView
+        android:id="@+id/da"
+        android:layout_width="196dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/mp5" />
+
+    <Button
+        android:id="@+id/buyMP5Button"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:onClick="buyMP5"
+        android:text="BUY FOR $10K"
+        app:layout_constraintBottom_toBottomOf="@+id/buyPistolButton"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="169dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buyPistolButton"
+        app:srcCompat="@mipmap/machine" />
+
+    <ImageView
+        android:id="@+id/img4"
+        android:layout_width="205dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/buyMP5Button"
+        app:srcCompat="@mipmap/m4" />
+
+    <ImageView
+        android:id="@+id/img5"
+        android:layout_width="195dp"
+        android:layout_height="167dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBuySMG"
+        app:srcCompat="@mipmap/ak47" />
+
+    <ImageView
+        android:id="@+id/img6"
+        android:layout_width="208dp"
+        android:layout_height="193dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/img4"
+        app:srcCompat="@mipmap/sniper" />
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="70dp" />
+
+    <Button
+        android:id="@+id/buttonBuySMG"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:onClick="buyMP7"
+        android:text="BUY FOR $50K"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img3" />
+
+    <Button
+        android:id="@+id/buySMG2Button"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:onClick="buyMP7S"
+        android:text="BUY FOR $100K"
+        app:layout_constraintBottom_toBottomOf="@+id/buttonBuySMG"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/img3" />
+
+    <Button
+        android:id="@+id/buyAkButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:onClick="buyAK47"
+        android:text="BUY  FOR $500K"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img5" />
+
+    <Button
+        android:id="@+id/buySniperButton"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:onClick="buySniper"
+        android:text="BUY FOR $1M"
+        app:layout_constraintBottom_toBottomOf="@+id/buyAkButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline9"
+        app:layout_constraintTop_toBottomOf="@+id/img5" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="105dp"
+        android:layout_height="95dp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24"
+        app:srcCompat="@mipmap/pistol" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

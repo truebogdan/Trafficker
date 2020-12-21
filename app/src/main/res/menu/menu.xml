@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item android:title="Save Game" android:id="@+id/save_game" app:showAsAction="never"/>
+ <item android:title="Bitcoin Wallet" android:id="@+id/bitcoin_wallet" app:showAsAction="never"/>
+ <item android:title="Hospital" android:id="@+id/hospital" app:showAsAction="never"/>
+ <item android:title="Gun Shop" android:id="@+id/gun_shop" app:showAsAction="never"/>
+ <item android:title="How to play" android:id="@+id/htp" app:showAsAction="never"/>
+</menu>

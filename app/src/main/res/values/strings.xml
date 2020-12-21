@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Drug Trafficker</string>
+    <array name="knife">
+        <item>Knife</item>
+    </array>
+    <array name="bribes">
+        <item>No bribe</item>
+        <item>50K$</item>
+        <item>100K$</item>
+        <item>150K$</item>
+    </array>
+    <array name="protection">
+        <item>No protection</item>
+        <item>Cartel 60K$</item>
+        <item>Police Department 120K$</item>
+    </array>
+    <array name="vehicles">
+        <item>Motorcycles 10K$</item>
+        <item>Cars 30K</item>
+        <item>Trucks 100K</item>
+        <item>Planes 500K</item>
+    </array>
+    <string-array name="countries">
+        <item>Miami</item>
+        <item>New York</item>
+        <item>Los Angeles</item>
+        <item>Paris</item>
+        <item>Romania</item>
+    </string-array>
+    <string-array name="productName">
+        <item>Weed</item>
+        <item>PCP</item>
+        <item>LSD</item>
+        <item>Heroin</item>
+        <item>Crack</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
